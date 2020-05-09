@@ -33,7 +33,7 @@ int main() {
 	cout << endl;
 
 	cout<<"vec_copied2"<<endl;
-	vec_copied2.erase(vec_copied2.begin()+1);
+	vec_copied2.erase(vec_copied2.begin() + 1);
 	print_vec(vec_copied2);
 	cout<<endl;
 	
